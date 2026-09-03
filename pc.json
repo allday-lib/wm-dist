@@ -1,0 +1,12 @@
+{
+    "pcExpireDate":  "2027-03-31",
+    "notice":  null,
+    "minVersion":  null,
+    "pcLatestVersion":  "3.0.3",
+    "pcDownloadUrl":  null,
+    "pcDownloadUrlPortable":  "https://github.com/namyongkim1983/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-portable.zip",
+    "pcDownloadUrlSetup":  "https://github.com/namyongkim1983/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-setup.exe",
+    "premiumGateEnabled":  true,
+    "premiumFreeQuota":  30,
+    "betaEnabled":  false
+}
