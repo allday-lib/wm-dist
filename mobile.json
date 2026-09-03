@@ -5,7 +5,7 @@
   "betaExpireDate": "2027-03-31",
   "latestVersionCode": 3,
   "latestVersionName": "1.2",
-  "apkUrl": "https://github.com/namyongkim1983/wm-dist/releases/download/and-v1.2/warehouse-manager-1.2.apk",
+  "apkUrl": "https://github.com/allday-lib/wm-dist/releases/download/and-v1.2/warehouse-manager-1.2.apk",
   "apkSha256": "2a49043402f800e50ff3eb7523b34159e69824b50c8bd734370a9b8a58df2469",
   "updateRequired": false
 }
