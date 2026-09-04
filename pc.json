@@ -1,12 +1,27 @@
 {
     "pcExpireDate":  "2027-03-31",
-    "notice":  null,
+    "notice":  {
+        "id":  "2026-09-05-rename",
+        "title":  "앱 이름이 「서재의 정석」으로 바뀌었습니다",
+        "body":  "창고관리가 3.1.0부터 「서재의 정석」이 되었습니다. 데이터·설정·라이선스는 그대로 이어집니다.\n\n· 설치본: 시작 메뉴 이름이 바뀌었고, 작업표시줄에 고정해 둔 아이콘은 다시 고정해 주세요.\n· 포터블: 새 zip을 쓰던 폴더 위에 덮어쓰면 됩니다. 예전 「창고관리.exe」는 지워도 됩니다(새 이름 「서재의 정석.exe」).\n· 앱 안에서 부르던 「창고」도 「서재」로 바뀌었습니다."
+    },
     "minVersion":  null,
-    "pcLatestVersion":  "3.0.3",
-    "pcReleaseNotes":  null,
+    "pcLatestVersion":  "3.1.0",
+    "pcReleaseNotes":  [
+        { "version":  "3.1.0", "items":  [
+            "앱 이름 「서재의 정석」으로 변경(데이터·라이선스 유지)",
+            "만화 뷰어: 폰과 같은 툴바·아이콘, 넘김 효과(책장·입체·모서리·밀어넘김 등), 밝기·색온도, 두 쪽 보기 개선",
+            "이미지 책갈피: 그 쪽 그림을 함께 보관, 파일로 저장, 북마크 브라우저 이미지 탭",
+            "zip 안의 zip(중첩 압축) 만화가 열리지 않던 문제 수정",
+            "무료 EPUB 변환 20건 + 인터넷 연결 시 매주 1건 회복(최대 4건), 모바일 연동 첫 연결부터 30일 체험",
+            "관리 폴더 추가 시 겹치는 폴더(같음·하위·상위) 검사",
+            "원격 공지 창·업데이트 내역 보기, 트레이 상주 중에는 창이 열릴 때 표시"
+        ] },
+        { "version":  "3.0.3", "items":  ["무료 건수 단위를 파일 1개로 변경", "모바일 기기 이름 변경 지원"] }
+    ],
     "pcDownloadUrl":  null,
-    "pcDownloadUrlPortable":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-portable.zip",
-    "pcDownloadUrlSetup":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-setup.exe",
+    "pcDownloadUrlPortable":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/warehouse-manager-3.1.0-portable.zip",
+    "pcDownloadUrlSetup":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/warehouse-manager-3.1.0-setup.exe",
     "premiumGateEnabled":  true,
     "premiumFreeQuota":  20,
     "betaEnabled":  false,
