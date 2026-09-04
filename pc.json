@@ -9,6 +9,6 @@
     "premiumGateEnabled":  true,
     "premiumFreeQuota":  20,
     "betaEnabled":  false,
-    "quotaServerUrl":  null,
+    "quotaServerUrl":  "https://wm-quota.allday-lib.workers.dev",
     "mobileTrialDays":  30
 }
