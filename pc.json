@@ -7,6 +7,8 @@
     "pcDownloadUrlPortable":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-portable.zip",
     "pcDownloadUrlSetup":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-setup.exe",
     "premiumGateEnabled":  true,
-    "premiumFreeQuota":  30,
-    "betaEnabled":  false
+    "premiumFreeQuota":  20,
+    "betaEnabled":  false,
+    "quotaServerUrl":  null,
+    "mobileTrialDays":  30
 }
