@@ -20,8 +20,8 @@
         { "version":  "3.0.3", "items":  ["무료 건수 단위를 파일 1개로 변경", "모바일 기기 이름 변경 지원"] }
     ],
     "pcDownloadUrl":  null,
-    "pcDownloadUrlPortable":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/warehouse-manager-3.1.0-portable.zip",
-    "pcDownloadUrlSetup":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/warehouse-manager-3.1.0-setup.exe",
+    "pcDownloadUrlPortable":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/Seojae-3.1.0-portable.zip",
+    "pcDownloadUrlSetup":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/Seojae-3.1.0-setup.exe",
     "premiumGateEnabled":  true,
     "premiumFreeQuota":  20,
     "betaEnabled":  false,
