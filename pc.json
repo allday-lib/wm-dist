@@ -1,8 +1,16 @@
 {
     "pcExpireDate":  "2027-03-31",
-    "notice":  null,
+    "notice":  {
+        "id":  "2026-09-04-sample",
+        "title":  "창고관리 안내 (샘플)",
+        "body":  "안녕하세요. 이 창은 원격 공지 샘플입니다.\n\n· 이미지 뷰어에 넘김 효과·이미지 책갈피가 추가되었습니다.\n· 무료 EPUB 변환은 20건이며, 인터넷에 연결돼 있으면 매주 1건씩 회복됩니다.\n\n아래 [다시 열지 않기]를 체크하고 닫으면 이 공지는 다시 뜨지 않습니다."
+    },
     "minVersion":  null,
-    "pcLatestVersion":  "3.0.3",
+    "pcLatestVersion":  "3.0.4",
+    "pcReleaseNotes":  [
+        { "version":  "3.0.4", "items":  ["이미지 뷰어: 폰과 같은 툴바·아이콘, 넘김 효과(책장·밀어넘김 등), 밝기·색온도", "이미지 책갈피: 그 쪽 그림을 함께 보관, 파일로 저장", "원격 공지 창과 업데이트 내역 보기 추가", "무료 EPUB 변환 20건 + 주간 회복(서버)"] },
+        { "version":  "3.0.3", "items":  ["무료 건수 단위를 파일 1개로 변경", "모바일 기기 이름 변경 지원"] }
+    ],
     "pcDownloadUrl":  null,
     "pcDownloadUrlPortable":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-portable.zip",
     "pcDownloadUrlSetup":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.0.3/warehouse-manager-3.0.3-setup.exe",
