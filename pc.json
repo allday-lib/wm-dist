@@ -13,7 +13,7 @@
             "만화 뷰어: 폰과 같은 툴바·아이콘, 넘김 효과(책장·입체·모서리·밀어넘김 등), 밝기·색온도, 두 쪽 보기 개선",
             "이미지 책갈피: 그 쪽 그림을 함께 보관, 파일로 저장, 북마크 브라우저 이미지 탭",
             "zip 안의 zip(중첩 압축) 만화가 열리지 않던 문제 수정",
-            "설치 후 30일 체험 — 그동안 내장 뷰어·모바일 연동·독서 활동 등이 모두 열립니다(EPUB 변환은 5건)",
+            "설치 후 30일 체험 — 그동안 내장 뷰어·모바일 연동·독서 활동 등이 모두 열립니다(EPUB 변환은 10건)",
             "관리 폴더 추가 시 겹치는 폴더(같음·하위·상위) 검사",
             "원격 공지 창·업데이트 내역 보기, 트레이 상주 중에는 창이 열릴 때 표시"
         ] },
@@ -23,7 +23,7 @@
     "pcDownloadUrlPortable":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/Seojae-3.1.0-portable.zip",
     "pcDownloadUrlSetup":  "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.1.0/Seojae-3.1.0-setup.exe",
     "premiumGateEnabled":  true,
-    "premiumFreeQuota":  5,
+    "premiumFreeQuota":  10,
     "betaEnabled":  false,
     "quotaServerUrl":  "https://wm-quota.allday-lib.workers.dev",
     "trialDays":  30
