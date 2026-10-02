@@ -1,0 +1,49 @@
+# 📊 일별 사용 대수 기록 — counter 릴리스의 ping-pc / ping-and 누적 download_count 를 stats/counter-log.csv 에 남긴다.
+#   계산은 scripts/counter-log.mjs(조회 GET 만 한다 — counter 릴리스·파일은 절대 건드리지 않는다).
+#   API 가 실패하거나 두 파일 중 하나가 없으면 스크립트가 실패로 끝나고, CSV 도 커밋도 없다.
+name: counter-log
+
+on:
+  schedule:
+    # 매일 00:05 KST(= 15:05 UTC). 날짜는 "실행 시각 − 6시간"의 한국 날짜라, 이 실행은 전날 줄을 마감한다.
+    - cron: '5 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: counter-log
+  cancel-in-progress: false
+
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 누적값 읽어 CSV 갱신
+        id: log
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/counter-log.mjs
+
+      - name: 커밋·푸시(바뀐 것이 있을 때만)
+        env:
+          LOG_DATE: ${{ steps.log.outputs.date }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add stats/counter-log.csv
+          if git diff --cached --quiet; then
+            echo "바뀐 값이 없어 커밋하지 않습니다."
+            exit 0
+          fi
+          git commit -m "stats: counter ${LOG_DATE}"
+          # 그사이 누가 푸시했으면(설정 파일 수정 등) 그 위로 올린다
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
