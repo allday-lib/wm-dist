@@ -2,7 +2,7 @@
   "minVersion": null,
   "premiumGateEnabled": true,
   "trialDays": 30,
-  "lockedFeatures": ["viewer", "workWatchAlarm"],
+  "lockedFeatures": ["viewer", "workWatchAlarm", "listCompareWatch"],
   "quotaServerUrl": "https://wm-quota.allday-lib.workers.dev",
   "storeUrl": "https://play.google.com/apps/testing/com.alldaylib.seojae"
 }
