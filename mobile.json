@@ -4,5 +4,6 @@
   "trialDays": 30,
   "lockedFeatures": ["viewer", "workWatchAlarm", "listCompareWatch"],
   "quotaServerUrl": "https://wm-quota.allday-lib.workers.dev",
-  "storeUrl": "https://play.google.com/apps/testing/com.alldaylib.seojae"
+  "storeUrl": "https://play.google.com/store/apps/details?id=com.alldaylib.seojae",
+  "feedbackPrompt": false
 }
