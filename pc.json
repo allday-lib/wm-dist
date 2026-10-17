@@ -1,18 +1,28 @@
 {
   "minVersion": null,
-  "pcLatestVersion": "3.2.0",
+  "pcLatestVersion": "3.2.1",
   "pcDownloadUrl": null,
-  "pcDownloadUrlPortable": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.0/Seojae-3.2.0-portable.zip",
-  "pcDownloadUrlSetup": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.0/Seojae-3.2.0-setup.exe",
-  "pcMacLatestVersion": "3.2.0",
-  "pcDownloadUrlMacArm64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.0/Seojae-3.2.0-mac-arm64.zip",
-  "pcDownloadUrlMacX64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.0/Seojae-3.2.0-mac-x64.zip",
+  "pcDownloadUrlPortable": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.1/Seojae-3.2.1-portable.zip",
+  "pcDownloadUrlSetup": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.1/Seojae-3.2.1-setup.exe",
+  "pcMacLatestVersion": "3.2.1",
+  "pcDownloadUrlMacArm64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.1/Seojae-3.2.1-mac-arm64.zip",
+  "pcDownloadUrlMacX64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.1/Seojae-3.2.1-mac-x64.zip",
   "premiumGateEnabled": true,
   "premiumFreeQuota": 10,
   "betaEnabled": false,
   "quotaServerUrl": "https://wm-quota.allday-lib.workers.dev",
   "trialDays": 30,
   "pcReleaseNotes": [
+    {
+      "version": "3.2.1",
+      "items": [
+        "파일명 일괄 정리: 진행 막대와 [중지], [접기]로 정리를 돌려 두고 다른 일을 할 수 있습니다.",
+        "라이브러리 중복 정리: 왼쪽 관리 폴더 트리에서 검사할 폴더를 고를 수 있습니다.",
+        "목록 대조: 비교목록 패널과 관심작 여러 편을 한 번에 조회하는 일괄 실행을 지원합니다.",
+        "낭독 속도를 최대 4배까지 올리고 직접 입력할 수 있습니다.",
+        "작품이 많은 서재가 더 빨리 열리고, 잠깐 열어 본 작품은 최근 파일에 남지 않습니다."
+      ]
+    },
     {
       "version": "3.2.0",
       "items": [
