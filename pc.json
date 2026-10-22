@@ -1,18 +1,24 @@
 {
   "minVersion": null,
-  "pcLatestVersion": "3.2.2",
+  "pcLatestVersion": "3.2.3",
   "pcDownloadUrl": null,
-  "pcDownloadUrlPortable": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.2/Seojae-3.2.2-portable.zip",
-  "pcDownloadUrlSetup": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.2/Seojae-3.2.2-setup.exe",
-  "pcMacLatestVersion": "3.2.2",
-  "pcDownloadUrlMacArm64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.2/Seojae-3.2.2-mac-arm64.zip",
-  "pcDownloadUrlMacX64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.2/Seojae-3.2.2-mac-x64.zip",
+  "pcDownloadUrlPortable": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.3/Seojae-3.2.3-portable.zip",
+  "pcDownloadUrlSetup": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.3/Seojae-3.2.3-setup.exe",
+  "pcMacLatestVersion": "3.2.3",
+  "pcDownloadUrlMacArm64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.3/Seojae-3.2.3-mac-arm64.zip",
+  "pcDownloadUrlMacX64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.3/Seojae-3.2.3-mac-x64.zip",
   "premiumGateEnabled": true,
   "premiumFreeQuota": 10,
   "betaEnabled": false,
   "quotaServerUrl": "https://wm-quota.allday-lib.workers.dev",
   "trialDays": 30,
   "pcReleaseNotes": [
+    {
+      "version": "3.2.3",
+      "items": [
+        "온라인 낭독 음성(선희·인준 등)이 연결되지 않아 기본 음성으로만 읽히던 문제를 고쳤습니다."
+      ]
+    },
     {
       "version": "3.2.2",
       "items": [
@@ -21,16 +27,6 @@
         "기본 필터와 뷰어 상하 여백을 PC 에서도 씁니다.",
         "라이브러리 중복 정리: 다른 작품은 [보류]로 남기고, 보류·유지 바꾸기가 빨라졌습니다.",
         "파일명 일괄 정리: 완결 표기가 쌓이던 문제를 고치고, 이미 쌓인 표기는 하나로 합칩니다."
-      ]
-    },
-    {
-      "version": "3.2.1",
-      "items": [
-        "파일명 일괄 정리: 진행 막대와 [중지], [접기]로 정리를 돌려 두고 다른 일을 할 수 있습니다.",
-        "라이브러리 중복 정리: 왼쪽 관리 폴더 트리에서 검사할 폴더를 고를 수 있습니다.",
-        "목록 대조: 비교목록 패널과 관심작 여러 편을 한 번에 조회하는 일괄 실행을 지원합니다.",
-        "낭독 속도를 최대 4배까지 올리고 직접 입력할 수 있습니다.",
-        "작품이 많은 서재가 더 빨리 열리고, 잠깐 열어 본 작품은 최근 파일에 남지 않습니다."
       ]
     }
   ]
