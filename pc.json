@@ -1,12 +1,12 @@
 {
   "minVersion": null,
-  "pcLatestVersion": "3.2.3",
+  "pcLatestVersion": "3.3.0",
   "pcDownloadUrl": null,
-  "pcDownloadUrlPortable": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.3/Seojae-3.2.3-portable.zip",
-  "pcDownloadUrlSetup": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.2.3/Seojae-3.2.3-setup.exe",
-  "pcMacLatestVersion": "3.2.3",
-  "pcDownloadUrlMacArm64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.3/Seojae-3.2.3-mac-arm64.zip",
-  "pcDownloadUrlMacX64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.2.3/Seojae-3.2.3-mac-x64.zip",
+  "pcDownloadUrlPortable": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.3.0/Seojae-3.3.0-portable.zip",
+  "pcDownloadUrlSetup": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.3.0/Seojae-3.3.0-setup.exe",
+  "pcMacLatestVersion": "3.3.0",
+  "pcDownloadUrlMacArm64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.3.0/Seojae-3.3.0-mac-arm64.zip",
+  "pcDownloadUrlMacX64": "https://github.com/allday-lib/wm-dist/releases/download/mac-v3.3.0/Seojae-3.3.0-mac-x64.zip",
   "premiumGateEnabled": true,
   "premiumFreeQuota": 10,
   "betaEnabled": false,
@@ -14,19 +14,19 @@
   "trialDays": 30,
   "pcReleaseNotes": [
     {
-      "version": "3.2.3",
+      "version": "3.3.0",
       "items": [
-        "온라인 낭독 음성(선희·인준 등)이 연결되지 않아 기본 음성으로만 읽히던 문제를 고쳤습니다."
+        "작품 노트: 책갈피·스크랩·메모·사전·연재처와 읽어 온 여정(지도·시계·기세)을 한 화면에서 봅니다.",
+        "독서 활동: 타임라인 · 별자리 · 작품 통계 탭이 생겼습니다.",
+        "읽음 체크: 나중에 마저 읽기 · 그만 읽음을 고르고, 완독 뒤 외전은 추가분으로 따로 셉니다.",
+        "대시보드 개편: 서재 칸에서 서재마다 독서 화면 · 서재 화면을 고릅니다.",
+        "백업 가져오기 · 중복 정리 검사 범위 · 확인 열기 · 일본어 루비 낭독이 좋아지고, 긴 작품이 99%에서 완독으로 잡히지 않던 문제를 고쳤습니다."
       ]
     },
     {
-      "version": "3.2.2",
+      "version": "3.2.3",
       "items": [
-        "세로쓰기·후리가나: 일본어 소설과 세로 조판 책을 세로로 읽고, 한자 읽기를 글자 옆에 작게 볼 수 있습니다.",
-        "이북리더 테마: 전자잉크 화면에 맞춘 흑백 테마를 고를 수 있습니다.",
-        "기본 필터와 뷰어 상하 여백을 PC 에서도 씁니다.",
-        "라이브러리 중복 정리: 다른 작품은 [보류]로 남기고, 보류·유지 바꾸기가 빨라졌습니다.",
-        "파일명 일괄 정리: 완결 표기가 쌓이던 문제를 고치고, 이미 쌓인 표기는 하나로 합칩니다."
+        "온라인 낭독 음성(선희·인준 등)이 연결되지 않아 기본 음성으로만 읽히던 문제를 고쳤습니다."
       ]
     }
   ]
