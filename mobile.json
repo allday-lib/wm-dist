@@ -9,6 +9,7 @@
   ],
   "quotaServerUrl": "https://wm-quota.allday-lib.workers.dev",
   "storeUrl": "https://play.google.com/store/apps/details?id=com.alldaylib.seojae",
+  "iosStoreUrl": "https://apps.apple.com/kr/app/apple-books/id364709193",
   "feedbackPrompt": false,
   "review": {
     "finishes": 0
