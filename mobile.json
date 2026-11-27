@@ -1,5 +1,5 @@
 {
-  "minVersion": null,
+  "minVersion": 260,
   "premiumGateEnabled": true,
   "trialDays": 30,
   "lockedFeatures": [
