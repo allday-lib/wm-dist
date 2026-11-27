@@ -1,6 +1,5 @@
 {
-  "minVersion": "3.5.0",
-  "pcMacMinVersion": "3.5.0",
+  "minVersion": null,
   "pcLatestVersion": "3.5.0",
   "pcDownloadUrl": null,
   "pcDownloadUrlPortable": "https://github.com/allday-lib/wm-dist/releases/download/pc-v3.5.0/Seojae-3.5.0-portable.zip",
